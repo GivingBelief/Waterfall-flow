@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#box{
+  width: 1200px;
+  /*background-color: #f00;*/
+  /*height: 5000px;*/
+  margin: 0 auto;
+
+}
+#oneoul{
+  display: flex;
+  /*height: 100%;*/
+}
+#oneoul .lists{
+  flex: 1;
+}
+#oneoul .lists ul{
+  /*height: 100%;*/
+}
+#oneoul .lists ul .lineli{
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 10px;
+}
+/* 滚动条样式 */
+::-webkit-scrollbar{width:8px;} /* 设置滚动条宽高 */
+::-webkit-scrollbar-track{background-color:#bee1eb;border-radius: 50px}/* 设置滚动条背后轨道样式 */
+::-webkit-scrollbar-thumb{background-color:#f00; border-radius: 50px;}/* 设置滚动条样式 */
+::-webkit-scrollbar-thumb:hover {background-color:#9c3}/* 设置 "鼠标移上" 滚动条样式 */
+::-webkit-scrollbar-thumb:active {background-color:#00aff0}/* 设置 "鼠标按下" 滚动条样式 */
+

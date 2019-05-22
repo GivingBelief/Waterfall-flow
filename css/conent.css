@@ -1,0 +1,25 @@
+@charset "UTF-8";
+*{
+  margin: 0;
+  padding: 0;
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+img{
+  width: 180px;
+  /*position: absolute;*/
+  vertical-align: top;
+  border-radius: 5px;
+}
+
+/* 6的倍数的div标签设置有浮动 */
+/*#row #center div:nth-child(6n) {*/
+  /*float: right;*/
+/*}*/
+
+
